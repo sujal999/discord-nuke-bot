@@ -8,7 +8,7 @@ import asyncio
 import time
 import logging
 
-client = commands.Bot(command_prefix='$') #This Is The Prefix, Feel Free To Change It Anytime
+client = commands.Bot(command_prefix='!') #This Is The Prefix, Feel Free To Change It Anytime
 
 client.remove_command("help")
 
@@ -144,4 +144,4 @@ async def dab(ctx):
     await client.add_roles(user, role)
     print ("You're in buddy, now don't fuck it up")
 
-client.run("TOKEN") #Bot's Token Code Goes Here
+client.run("ODE3OTg5MjI2ODc1OTc3NzQ4.YERh1Q.Oy8xa7FmUlcgwk5jtZnCnvMO-XA") #Bot's Token Code Goes Here
